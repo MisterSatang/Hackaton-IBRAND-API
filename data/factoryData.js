@@ -6,8 +6,9 @@ const factory = [
         "detail": "บริษัทฯ มุ่งมั่นในการดำเนินการคิดค้น วิจัย ผลิตผลิตภัณฑ์ Skincare ที่เหมาะสมกับแต่ละสภาพผิว โดยเฉพาะผิวแพ้ง่าย และผิวที่บอบบางเป็นพิเศษ มีการพัฒนาอย่างต่อเนื่อง โดยมุ่งเน้นคุณภาพให้มีมาตรฐานระดับสากลเสมอมา เพื่อประสิทธิภาพที่น่าเชื่อถือของผลิตภัณฑ์ ให้ผู้บริโภคมั่นใจได้ในความปลอดภัย รวมถึงได้ผลลัพธ์อันน่าพึงพอใจหลังการใช้",
         "detail_full": "บริษัท คอสมินา จำกัด ก่อตั้งโดย นายแพทย์ธาดา เปี่ยมพงศ์สานต์ ผู้ริเริ่มคิดค้น วิจัย และผลิตผลิตภัณฑ์ Skincare สำหรับดูแลผิวพรรณอันเป็นสูตรเฉพาะสำหรับผิวแต่ละประเภท โดยคำนึงถึงการค้นคว้าดูแลเอาใจใส่เรื่องผิวพรรณมาตลอด เป็นระยะเวลามากกว่า 45 ปี นอกจากนี้แล้ว นายแพทย์ธาดา เปี่ยมพงศ์สานต์ เป็นผู้ก่อตั้งสถาบันความรู้ Asian Esthetic Dermatology (AED) และสอนวิชาเวชศาสตร์ผิวพรรณ ที่มหาวิทยาลัยแม่ฟ้าหลวง วิทยาเขตกรุงเทพฯ โดยมุ่งเน้นการให้ความรู้เกี่ยวกับ การรักษาสิว ฝ้า ริ้วรอย ตลอดจนเทคนิคการทำเลเซอร์ต่าง ๆ การฉีดฟิลเลอร์ โบท็อกซ์ เมโส และทำการวิจัยพัฒนาสูตรเวชสำอาง สำหรับการรักษาสิว ฝ้า ครีมกันแดด สูตรชะลอริ้วรอย และการผลัดเซลล์ผิวมาอย่างต่อเนื่อง",
         "location": "ที่อยู่ 22/3 หมู่ 1 ถนนกาญจนาภิเษก แขวงบางระมาด เขตตลิ่งชัน กรุงเทพมหานคร 10170",
+        "province": "bangkok",
         "catagory_english": "cosmetics",
-        "product": [
+        "product_have": [
             "serum", "gel"
         ],
         "image": [
@@ -39,14 +40,14 @@ const factory = [
                 ],
                 "p_use": "ทาบริเวณที่เป็นสิว หลังล้างหน้า ตอนเช้า และก่อนนอน",
                 "p_ingre": [
-                    "Niacinamide (Vitamin B3)",
-                    "Salicylic Acid",
-                    "Tea Tree Oil",
-                    "Nordihydroguaiaretic Acid",
-                    "Organic Natural Plants – Blackcurrant Seed Oi",
-                    "Centella Asiatica Extract",
-                    "Witch Hazel",
-                    "Hexacarboxymethyl Dipeptide - 12"
+                    "niacinamide (vitamin b3)",
+                    "salicylic acid",
+                    "tea tree oil",
+                    "nordihydroguaiaretic acid",
+                    "organic natural plants – blackcurrant seed oi",
+                    "centella asiatica extract",
+                    "witch hazel",
+                    "hexacarboxymethyl dipeptide - 12"
                 ],
                 "p_pakaging": [
                     {
@@ -78,14 +79,14 @@ const factory = [
                 ],
                 "p_use": "ทาบริเวณที่เป็นสิว หลังล้างหน้า ตอนเช้า และก่อนนอน",
                 "p_ingre": [
-                    "Niacinamide (Vitamin B3)",
-                    "Salicylic Acid",
-                    "Organic Maclura Cochinchinensis Leaf Prenylflavonoids",
-                    "Zinc PCA",
-                    "Organic Natural Plants",
-                    "Centella Asiatica Extract",
-                    "Organic Rockrose Extract",
-                    "Hexacarboxymethyl Dipeptide-12"
+                    "niacinamide (vitamin b3)",
+                    "salicylic acid",
+                    "organic maclura cochinchinensis leaf prenylflavonoids",
+                    "zinc pca",
+                    "organic natural plants",
+                    "centella asiatica extract",
+                    "organic rockrose extract",
+                    "hexacarboxymethyl dipeptide-12"
                 ],
                 "p_pakaging": [
                     {
@@ -118,15 +119,15 @@ const factory = [
                 ],
                 "p_use": "ทาบริเวณที่เป็นสิว หลังล้างหน้า ตอนเช้า และก่อนนอน",
                 "p_ingre": [
-                    "Niacinamide (Vitamin B3)",
-                    "Sophora Japonica Flower Extract",
-                    "Organic Maclura Cochinchinensis Leaf Prenylflavonoids",
-                    "Alpha-Arbutin",
-                    "Licorice Extract ",
-                    "Hyaluronic Acid 8D",
-                    "Chondrus Crispus",
-                    "Hexacarboxymethyl Dipeptide - 2",
-                    "Rockrose Extract"
+                    "niacinamide (vitamin b3)",
+                    "sophora japonica flower extract",
+                    "organic maclura cochinchinensis leaf prenylflavonoids",
+                    "alpha-arbutin",
+                    "licorice extract ",
+                    "hyaluronic acid 8d",
+                    "chondrus crispus",
+                    "hexacarboxymethyl dipeptide - 2",
+                    "rockrose extract"
                 ],
                 "p_pakaging": [
                     {
@@ -159,12 +160,12 @@ const factory = [
                 ],
                 "p_use": "ทาเป็นประจำทุกวันก่อนนอน",
                 "p_ingre": [
-                    "4-N-Butylresorcinol",
-                    "3-O-Ethyl Ascorbic Acid",
-                    "Licorice Extract",
-                    "Lactic Acid",
-                    "Tocopheryl Acetate (Vitamin E)",
-                    "Trimethylpentanediol",
+                    "4-n-butylresorcinol",
+                    "3-o-ethyl ascorbic acid",
+                    "licorice extract",
+                    "lactic acid",
+                    "tocopheryl acetate (vitamin e)",
+                    "trimethylpentanediol",
                 ],
                 "p_pakaging": [
                     {
@@ -196,10 +197,10 @@ const factory = [
                 ],
                 "p_use": "ทาเป็นประจำทุกวันก่อนนอน",
                 "p_ingre": [
-                    "Niacinamide (Vitamin B3)",
-                    "Natural Retinol (Alfalfa)",
-                    "Gleditsia Triacanthos Seed Extract",
-                    "Hyaluronic Acid 8D"
+                    "niacinamide (vitamin b3)",
+                    "natural retinol (alfalfa)",
+                    "gleditsia triacanthos seed extract",
+                    "hyaluronic acid 8d"
                 ],
                 "p_pakaging": [
                     {
@@ -230,8 +231,9 @@ const factory = [
         "detail": "บริษัทของเรา เป็นบริษัทที่มีประสบการณ์ในการสร้างแบรนด์รับผลิตครีม รับผลิตอาหารเสริม สร้างแบรนด์ครีม สร้างแบรนด์อาหารเสริม ผลิตครีมแบรนด์ตัวเอง รับผลิตครีมขั้นต่ำ มานานมากกว่า 25 ปี โดยเป็นหนึ่งในบริษัทที่วิจัยและรับผลิตครีมจากสารสกัดธรรมชาติ ที่มีคุณภาพและได้รับการรับรองมาตรฐานสากล เช่น มาตรฐาน GMP,เครื่องหมายฮาลาลและ HACCP จากกระทรวงสาธารณสุข",
         "detail_full": " โดยเรามีบริการที่ยอดเยี่ยม เรามีทีมผู้เชี่ยวชาญด้าน R&D การผลิตและการควบคุมคุณภาพด้วยความรู้ด้านผลิตภัณฑ์ที่แข็งแกร่งซึ่งให้บริการอย่างมืออาชีพ เพื่อตอบโจทย์ความต้องการของลูกค้าทุกรูปแบบ รวมถึงให้บริการปรึกษาด้านการตลาด การออกแบบโลโก้สินค้าและบรรจุภัณฑ์ การทำตลาดออนไลน์ รับจัดทำสื่อต่างๆ เพื่อโปรโมทสินค้า จัดอีเว้นท์เปิดตัวสินค้า จัดกิจกรรรมส่งเสริมการขายและต่างประเทศให้การยอมรับและความไว้วางใจในการ ผลิตครีมส่งออกที่มีการส่งออกทั่วโลก 20 ปี",
         "location": "เลขที่ 600/46-47 ซอยรามคำแหง 39 (เทพลีลา 1) แขวงวังทองหลาง เขตวังทองหลาง กรุงเทพฯ 10310",
+        "province": "bangkok",
         "catagory_english": "cosmetics",
-        "product": [
+        "product_have": [
             "cream",
         ],
         "image": [
@@ -261,12 +263,12 @@ const factory = [
                 ],
                 "p_use": "ครีมสำหรับทาผิวกาย",
                 "p_ingre": [
-                    "Vitamin B3",
-                    "Arbutin",
-                    "Vitamin B5",
-                    "Aloe Vera Extract",
-                    "Tumeric Extract",
-                    "Glycerine"
+                    "vitamin b3",
+                    "arbutin",
+                    "vitamin b5",
+                    "aloe vera extract",
+                    "tumeric extract",
+                    "glycerine"
                 ],
                 "p_pakaging": [
                     {
@@ -298,10 +300,10 @@ const factory = [
                 ],
                 "p_use": "ครีมสำหรับทาผิวกาย",
                 "p_ingre": [
-                    "Titanium Dioxide",
-                    "Vitamin B5",
-                    "Vitamin E",
-                    "Vitamin B3"
+                    "titanium dioxide",
+                    "vitamin b5",
+                    "vitamin e",
+                    "vitamin b3"
                 ],
                 "p_pakaging": [
                     {
@@ -333,12 +335,12 @@ const factory = [
                 ],
                 "p_use": "ครีมสำหรับทาผิวกาย",
                 "p_ingre": [
-                    "Vitamin B3",
-                    "Arbutin",
-                    "Vitamin B5",
-                    "Aloe Vera Extract",
-                    "Tumeric Extract",
-                    "Glycerine"
+                    "vitamin b3",
+                    "arbutin",
+                    "vitamin b5",
+                    "aloe vera extract",
+                    "tumeric extract",
+                    "glycerine"
                 ],
                 "p_pakaging": [
                     {
@@ -370,8 +372,8 @@ const factory = [
                 ],
                 "p_use": "ครีมสำหรับทาผิวกาย",
                 "p_ingre": [
-                    "Titanuim Dioxide",
-                    "Propylene Glycol "
+                    "titanuim dioxide",
+                    "propylene glycol "
                 ],
                 "p_pakaging": [
                     {
@@ -403,14 +405,14 @@ const factory = [
                 ],
                 "p_use": "ครีมสำหรับทาผิวกาย",
                 "p_ingre": [
-                    "Vitamin B5",
-                    "Vitamin E",
-                    "Vitamin B3",
-                    "Glycerin",
-                    "Witch Hazel Extract",
-                    "Fucus Vesiculosus",
-                    "Spirulina Platenus Powder",
-                    "Deoxy Arbutin"
+                    "vitamin b5",
+                    "vitamin e",
+                    "vitamin b3",
+                    "glycerin",
+                    "witch hazel extract",
+                    "fucus vesiculosus",
+                    "spirulina platenus powder",
+                    "deoxy arbutin"
                 ],
                 "p_pakaging": [
                     {
@@ -443,7 +445,8 @@ const factory = [
         "detail_full": "บริการรับผลิตสินค้าในกลุ่ม Skin Care ทุกชนิด เช่น ครีมบำรุงผิว โลชั่น เซรั่ม ผลิตภัณฑ์ป้องกันแสงแดด เป็นต้น โดยเราคัดสรรวัตถุดิบและสารสกัดจาก บริษัทชั้นนำระดับโลก พร้อมกับการตรวจสอบคุณภาพทุกขั้นตอนอย่างพิถีพิถัน เอาใส่ใจทุกขั้นตอนของกระบวนการผลิต ภายใต้เครื่องมือที่ได้มาตราฐาน โดยสินค้าทุกรายการผ่านการรับรองจากจากองค์การอาหารและยา จึงเป็นผลิตภัณฑ์ที่สามารถทำการจัดจำหน่ายให้กับผู้บริโภคออกได้อย่างปลอดภัย",
         "catagory_english": "cosmetics",
         "location": "หมู่ที่ 1 241/92 Khaerai, Krathum Baen District, Samut Sakhon",
-        "product": [
+        "province": "samut sakhon",
+        "product_have": [
             "serum", "gel", "lotion", "cream"
         ],
         "image": [
@@ -473,14 +476,14 @@ const factory = [
                 ],
                 "p_use": "ใช้ทาบำรุงผิวหน้าเช้า-ก่อนนอน",
                 "p_ingre": [
-                    "BERRY COMPLEX",
-                    "KERATOPEEL",
-                    "PAPAYA ENZYME EXTRACT",
-                    "GALACTOMYSIS",
-                    "LICORICE",
-                    "MARINE COLLAGEN",
-                    "SODIUM PCA",
-                    "ALOE VERA ORGANIC WATER"
+                    "berry complex",
+                    "keratopeel",
+                    "papaya enzyme extract",
+                    "galactomysis",
+                    "licorice",
+                    "marine collagen",
+                    "sodium pca",
+                    "aloe vera organic water"
                 ],
                 "p_pakaging": [
                     {
@@ -513,12 +516,12 @@ const factory = [
                 ],
                 "p_use": "ลูบไล้ให้ทั่วใบหน้า ก่อนนอน",
                 "p_ingre": [
-                    "MALUS DOMESTICA",
-                    "ALP ROSE",
-                    "ACID 2-GLUCOSIDE",
-                    "LINKED-PAPAIN",
-                    "ACB MODIFIED PUMPKIN ENZYME",
-                    "PHYTOCELLTEC™ ARGAN"
+                    "malus domestica",
+                    "alp rose",
+                    "acid 2-glucoside",
+                    "linked-papain",
+                    "acb modified pumpkin enzyme",
+                    "phytocelltec™ argan"
                 ]
                 ,
                 "p_pakaging": [
@@ -552,13 +555,13 @@ const factory = [
                 ],
                 "p_use": "ลูบไล้ให้ทั่วผิวกายเป็นประจำทุกวัน",
                 "p_ingre": [
-                    "RICE BRAN EXTRACT",
-                    "ARGAN OIL",
-                    "NANO CERAMIDE",
-                    "VITAMIN E",
-                    "MARINE COLLAGEN",
-                    "VITAMIN B3",
-                    "SHEA BUTTER"
+                    "rice bran extract",
+                    "argan oil",
+                    "nano ceramide",
+                    "vitamin e",
+                    "marine collagen",
+                    "vitamin b3",
+                    "shea butter"
                 ],
                 "p_pakaging": [
                     {
@@ -590,13 +593,13 @@ const factory = [
                 ],
                 "p_use": "ใช้ทาบริเวณต้นแขน ต้นขา หรือหน้าท้อง นวดประมาณ 10-15 นาที",
                 "p_ingre": [
-                    "COFFEE EXTRACT",
-                    "HELIANTHUS ANNUUS SEED OIL",
-                    "LIPOREDUCTYL : CAFFEINE",
-                    "GINSENG EXTRACT",
-                    "L-CARNITINE",
-                    "CENTELLA ASIATICA EXTRACT",
-                    "SODIUM HYALURONATE"
+                    "coffee extract",
+                    "helianthus annuus seed oil",
+                    "liporeductyl : caffeine",
+                    "ginseng extract",
+                    "l-carnitine",
+                    "centella asiatica extract",
+                    "sodium hyaluronate"
                 ],
                 "p_pakaging": [
                     {
@@ -629,13 +632,13 @@ const factory = [
                 ],
                 "p_use": "ใช้ทาบริเวณผิวกายก่อนออกแดด 15 นาที",
                 "p_ingre": [
-                    "TITANIUM DIOXIDE",
-                    "OCTOCRYLENE",
-                    "NANOWHITE",
-                    "HENTOWHITE",
-                    "SABIWHITE",
-                    "CALENDULA EXTRACT",
-                    "GP4G",
+                    "titanium dioxide",
+                    "octocrylene",
+                    "nanowhite",
+                    "hentowhite",
+                    "sabiwhite",
+                    "calendula extract",
+                    "gp4g",
                 ],
                 "p_pakaging": [
                     {
@@ -667,7 +670,8 @@ const factory = [
         "detail_full": "โรงงานผลิตด้วยกระบวนการ และเทคโนโลยีที่ทันสมัย ห้องปฏฺิบัติการวิจัย Cleanroom Laboratory ระบบบรรจุแบบปลอดเชื้อ ทำให้เราก้าวขึ้นเป็นหนึ่งในผู้นำการผลิตเครื่องสำอางที่ได้มาตรฐานระดับสากล (ASEAN GMP) จากสำนักงานคณะกรรมการอาหารและยา",
         "catagory_english": "cosmetics",
         "location": "15/4 Moo1 Soi Phamae Maha Karun 25 Banmai, Pak Kret, Nonthaburi 11120 Thailand",
-        "product": [
+        "province": "nonthaburi",
+        "product_have": [
             "serum", "mask", "cream"
         ],
         "image": [
@@ -698,12 +702,12 @@ const factory = [
                 ],
                 "p_use": "ใช้ทาบำรุงผิว",
                 "p_ingre": [
-                    "CHAMOMILE",
-                    "HI-CLERA",
-                    "PAPAYA ENZYME EXTRACT",
-                    "LICORICE",
-                    "ALOE VERA",
-                    "HEMP SEED OIL",
+                    "chamomile",
+                    "hi-clera",
+                    "papaya enzyme extract",
+                    "licorice",
+                    "aloe vera",
+                    "hemp seed oil",
                 ],
                 "p_pakaging": [
                     {
@@ -736,13 +740,13 @@ const factory = [
                 ],
                 "p_use": "ทาผิวกาย",
                 "p_ingre": [
-                    "Phenylethyl Resorcinol",
-                    "ALPHA-ARBUTIN",
-                    "AA2G",
-                    "NIACINAMIDE (VITAMIN B3)",
-                    "Matrixyl 3000",
-                    "SODIUM HYALURONATE",
-                    "Panthenol (Vitamin B5)"
+                    "phenylethyl resorcinol",
+                    "alpha-arbutin",
+                    "aa2g",
+                    "niacinamide (vitamin b3)",
+                    "matrixyl 3000",
+                    "sodium hyaluronate",
+                    "panthenol (vitamin b5)"
                 ]
                 ,
                 "p_pakaging": [
@@ -776,12 +780,12 @@ const factory = [
                 ],
                 "p_use": "ครีมทากันเเดด",
                 "p_ingre": [
-                    "Allantoin",
-                    "ALOE BARBADENSIS LEAF EXTRACT",
-                    "TOCOPHERYL ACETATE",
-                    "SUNCAT MTA",
-                    "TITANIUM DIOXIDE",
-                    "ZINC OXIDE"
+                    "allantoin",
+                    "aloe barbadensis leaf extract",
+                    "tocopheryl acetate",
+                    "suncat mta",
+                    "titanium dioxide",
+                    "zinc oxide"
                 ],
                 "p_pakaging": [
                     {
@@ -813,8 +817,8 @@ const factory = [
                 ],
                 "p_use": "ครีมทาผิว",
                 "p_ingre": [
-                    "Titanium Dioxide",
-                    "Zinc Oxide"
+                    "titanium dioxide",
+                    "zinc oxide"
                 ],
                 "p_pakaging": [
                     {
@@ -846,10 +850,10 @@ const factory = [
                 ],
                 "p_use": "ทาก่อนนอน",
                 "p_ingre": [
-                    "WHEAT PROTEIN EXTRACT",
-                    "NIACINAMIDE (VITAMIN B3)",
-                    "TRANEXAMIC ACID, SODIUM",
-                    "HYALURONATE, GLYCERETH-26"
+                    "wheat protein extract",
+                    "niacinamide (vitamin b3)",
+                    "tranexamic acid, sodium",
+                    "hyaluronate, glycereth-26"
                 ],
                 "p_pakaging": [
                     {
@@ -881,7 +885,8 @@ const factory = [
         "detail_full": " บริษัท วธูธร จำกัด เราคือ โรงงานผลิตครีม สร้างแบรนด์ ในรูปแบบของ โรงงานรับผลิตครบวงจร ควบคุมและดำเนินการผลิตภายใต้มาตรฐานสากล รับผลิตครีม รับผลิตเครื่องสำอาง รับผลิตสกินแคร์ รวมถึงบริการสร้างแบรนด์ครีม ยาสีฟัน เซรั่ม ผลิตภัณฑ์เครื่องสำอางออร์แกนิค และผลิตภัณฑ์ความงาม ภายใต้แบรนด์ของคุณ ในรูปแบบ OEM (ผลิตภัณฑ์สูตรมาตรฐาน) และ ODM (วิจัยและพัฒนาสูตรขึ้นใหม่) เป็นที่ยอมรับในวงการเครื่องสำอาง ตอบโจทย์ทุกความต้องการ ในการเริ่มต้น สร้างแบรนด์ตัวเอง พร้อมที่ปรึกษาด้านการสร้างแบรนด์ และทีมงานโปรดักชั่นมืออาชีพ ดูแลตั้งต้นจนจบ แนะนำและอัพเดตเทรนด์ของสารสกัดและนวัตกรรมใหม่ๆ ที่เดียวกับ บริการสร้างแบรนด์ครีมครบวงจร จบทุกขั้นตอนในที่เดียว",
         "catagory_english": "cosmetics",
         "location": "402/2 หมู่ 1 ต.บ้านใหม่ อ.เมือง จ.ปทุมธานี 12000",
-        "product": [
+        "province": "pathum thani",
+        "product_have": [
             "serum", "lotion", "mask"
         ],
         "image": [
@@ -912,12 +917,12 @@ const factory = [
                 ],
                 "p_use": "โลชั่นนวดกระชับทรวงอก",
                 "p_ingre": [
-                    "Gluten Free",
-                    "Mineral Oil Free",
-                    "Alcohol Free",
-                    "Oil Free",
-                    "Non GMO",
-                    "Cruelty Free",
+                    "gluten free",
+                    "mineral oil free",
+                    "alcohol free",
+                    "oil free",
+                    "non gmo",
+                    "cruelty free",
                 ],
                 "p_pakaging": [
                     {
@@ -949,12 +954,12 @@ const factory = [
                 ],
                 "p_use": "ทาผิวกาย สำหรับเด็ก",
                 "p_ingre": [
-                    "Gluten Free",
-                    "Mineral Oil Free",
-                    "Alcohol Free",
-                    "Oil Free",
-                    "Non GMO",
-                    "Cruelty Free",
+                    "gluten free",
+                    "mineral oil free",
+                    "alcohol free",
+                    "oil free",
+                    "non gmo",
+                    "cruelty free",
                 ],
                 "p_pakaging": [
                     {
@@ -986,12 +991,12 @@ const factory = [
                 ],
                 "p_use": "น้ำมันออยล์บำรุงผิวกาย",
                 "p_ingre": [
-                    "Gluten Free",
-                    "Mineral Oil Free",
-                    "Alcohol Free",
-                    "Oil Free",
-                    "Non GMO",
-                    "Cruelty Free",
+                    "gluten free",
+                    "mineral oil free",
+                    "alcohol free",
+                    "oil free",
+                    "non gmo",
+                    "cruelty free",
                 ],
                 "p_pakaging": [
                     {
@@ -1023,12 +1028,12 @@ const factory = [
                 ],
                 "p_use": "ครีมทาผิว",
                 "p_ingre": [
-                    "Gluten Free",
-                    "Mineral Oil Free",
-                    "Alcohol Free",
-                    "Oil Free",
-                    "Non GMO",
-                    "Cruelty Free",
+                    "gluten free",
+                    "mineral oil free",
+                    "alcohol free",
+                    "oil free",
+                    "non gmo",
+                    "cruelty free",
                 ],
                 "p_pakaging": [
                     {
@@ -1060,12 +1065,12 @@ const factory = [
                 ],
                 "p_use": "ทาบำรุงผิวหน้า",
                 "p_ingre": [
-                    "Gluten Free",
-                    "Mineral Oil Free",
-                    "Alcohol Free",
-                    "Oil Free",
-                    "Non GMO",
-                    "Cruelty Free",
+                    "gluten free",
+                    "mineral oil free",
+                    "alcohol free",
+                    "oil free",
+                    "non gmo",
+                    "cruelty free",
                 ],
                 "p_pakaging": [
                     {
@@ -1099,7 +1104,8 @@ const factory = [
         "detail_full": "เราเป็นโรงงานผลิตครีมแบบ OEM (Original Equipment Manufacturer) และ ODM (Original Design Manufacturer) เราไม่มีแบรนด์เป็นของตัวเองที่จะทำให้ลูกค้าเกิดความระแวงว่าเราจะไปแข่งขันกับลูกค้าของตนเอง เพื่อให้ลูกค้าของเรา มีความสบายใจมั่นใจ ในการสั่งผลิตกับเรา ด้วยการบริการทำแบรนด์เครื่องสำอางแบบ One Stop Service เพื่อให้ลูกค้าได้รับความสะดวก สบาย รวดเร็ว ทันใจ ในแต่ละขั้นของการทำแบรนด์ เราดำเนินธุรกิจบนความโปร่งใส ซื่อสัตย์ ตรงไปตรงมากับลูกค้า มีจรรยาบรรณ และเราคำนึงถึงความปลอดภัยของลูกค้าที่ใช้ผลิตภัณฑ์ทีเราเป็นผู้ผลิตครีมจะต้องเห็นผล ปลอดภัย ไร้สารต้องห้าม",
         "catagory_english": "cosmetics",
         "location": "90 หมู่ 11 ซอยเพชรเกษม 85 ถนนเพชรเกษม ต.อ้อมน้อย อ.กระทุ่มแบน จ.สมุทรสาคร 74130",
-        "product": [
+        "province": "samut sakhon",
+        "product_have": [
             "serum", "cream", "mask"
         ],
         "image": [
@@ -1130,14 +1136,14 @@ const factory = [
                 ],
                 "p_use": "ใช้ทาบริเวณใบหน้า",
                 "p_ingre": [
-                    "Ethyl Ascorbic Acid",
-                    "Hyamagic 4D",
-                    "Alpha-Arbutin",
-                    "Bacillus Ferment",
-                    "Etioline",
-                    "Kombuchka",
-                    "Cucumber Extract",
-                    "Snow Lotus Extract"
+                    "ethyl ascorbic acid",
+                    "hyamagic 4d",
+                    "alpha-arbutin",
+                    "bacillus ferment",
+                    "etioline",
+                    "kombuchka",
+                    "cucumber extract",
+                    "snow lotus extract"
                 ],
                 "p_pakaging": [
                     {
@@ -1170,16 +1176,16 @@ const factory = [
                 ],
                 "p_use": "ทาผิวกาย",
                 "p_ingre": [
-                    "Papaya Extract",
-                    "Protease",
-                    "Nicotinamide",
-                    "Sodium Hyaluronate (HA)",
-                    "Witch Hazel Extract",
-                    "Tocopheryl Acetate",
-                    "Citrofresh",
-                    "Cucumber Extract",
-                    "Allantoin",
-                    "Aluminum Chlorohydrate"
+                    "papaya extract",
+                    "protease",
+                    "nicotinamide",
+                    "sodium hyaluronate (ha)",
+                    "witch hazel extract",
+                    "tocopheryl acetate",
+                    "citrofresh",
+                    "cucumber extract",
+                    "allantoin",
+                    "aluminum chlorohydrate"
                 ],
                 "p_pakaging": [
                     {
@@ -1211,14 +1217,14 @@ const factory = [
                 ],
                 "p_use": "ครีมทาผิวกาย",
                 "p_ingre": [
-                    "Nanowhite",
-                    "Keratoline",
-                    "Papaya Extract",
-                    "Vitamin B3",
-                    "Sodium Hyaluronate",
-                    "Hydrolyzed Collagen",
-                    "Glycolic Acid",
-                    "Lactic Acid"
+                    "nanowhite",
+                    "keratoline",
+                    "papaya extract",
+                    "vitamin b3",
+                    "sodium hyaluronate",
+                    "hydrolyzed collagen",
+                    "glycolic acid",
+                    "lactic acid"
                 ],
                 "p_pakaging": [
                     {
@@ -1250,11 +1256,11 @@ const factory = [
                 ],
                 "p_use": "ครีมทาผิว",
                 "p_ingre": [
-                    "Egg Albumen Powder",
-                    "Hydrolyzed Collagen",
-                    "Alcohol Free",
-                    "Snow Lotus Extract",
-                    "Cucumber Extract",
+                    "egg albumen powder",
+                    "hydrolyzed collagen",
+                    "alcohol free",
+                    "snow lotus extract",
+                    "cucumber extract",
                 ],
                 "p_pakaging": [
                     {
@@ -1286,12 +1292,12 @@ const factory = [
                 ],
                 "p_use": "ทาบำรุงผิวหน้า",
                 "p_ingre": [
-                    "Bamboo Charcoal Powder",
-                    "Bamboo Bioferment",
-                    "Witch Hazel Extract",
-                    "Cucumber Extract",
-                    "White Tea Extract",
-                    "Chamomile Extract",
+                    "bamboo charcoal powder",
+                    "bamboo bioferment",
+                    "witch hazel extract",
+                    "cucumber extract",
+                    "white tea extract",
+                    "chamomile extract",
                 ],
                 "p_pakaging": [
                     {
@@ -1323,7 +1329,8 @@ const factory = [
         "detail_full": "เป็นโรงงานรับผลิตเครื่องสำอาง ได้ให้บริการรับจ้างออกแบบ คิดค้น และผลิตสินค้ากลุ่มเครื่องสำอาง ผลิตภัณฑ์บำรุงผิว ผลิตภัณฑ์ดูแลส่วนบุคคล ผลิตภัณฑ์ดูแลภายในช่องปาก และเครื่องหอม คอสโมเนชั่นเชี่ยวชาญในการคิดค้นและพัฒนาสูตรผลิตภัณฑ์ การหาบรรรจุภัณฑ์ และรูปแบบการผลิตที่เป็นไปตามมาตรฐานระดับสากล อย. , GMP, ISO 22716 , Halal อีกทั้งเรายังมุ่งมั่นในการบริการให้สมกับที่ลูกค้าไว้วางใจให้เราเป็นส่วนหนึ่งแห่งความสำเร็จ",
         "catagory_english": "cosmetics",
         "location": "บริษัท คอสโมเนชั่น จำกัด ( สำนักงานใหญ่) 24 / 10 หมู่ 13 ซอยกิ่งแก้ว 25 / 2 ถนนกิ่งแก้ว ตำบลราชาเทวะ อำเภอบางพลี จังหวัดสมุทรปราการ 10540",
-        "product": [
+        "province": "samut prakan",
+        "product_have": [
             "serum", "cream", "gel"
         ],
         "image": [
@@ -1353,14 +1360,14 @@ const factory = [
                 ],
                 "p_use": "ใช้ทาบริเวณใบหน้า",
                 "p_ingre": [
-                    "Pentavitin",
-                    "Ceramide Complex",
-                    "Vitamin C",
-                    "Vitamin B3",
-                    "Vitamin E",
-                    "Aloe Vera Extract",
-                    "Centella Asiatica Extract",
-                    "Hyaluronic Acid"
+                    "pentavitin",
+                    "ceramide complex",
+                    "vitamin c",
+                    "vitamin b3",
+                    "vitamin e",
+                    "aloe vera extract",
+                    "centella asiatica extract",
+                    "hyaluronic acid"
                 ]
                 ,
                 "p_pakaging": [
@@ -1394,12 +1401,12 @@ const factory = [
                 ],
                 "p_use": "ทาผิวกาย",
                 "p_ingre": [
-                    "Cannabis Sativa Seed Oil",
-                    "Hywhite",
-                    "SK Ceramide Complex",
-                    "Vitamin E",
-                    "Organic Aloe Vera Extract",
-                    "Exo-P"
+                    "cannabis sativa seed oil",
+                    "hywhite",
+                    "sk ceramide complex",
+                    "vitamin e",
+                    "organic aloe vera extract",
+                    "exo-p"
                 ],
                 "p_pakaging": [
                     {
@@ -1432,12 +1439,12 @@ const factory = [
                 ],
                 "p_use": "gel บำรุงผิวหน้า",
                 "p_ingre": [
-                    "Salicylic Acid Encapsulation",
-                    "Ceramide Complex",
-                    "Seboclear MP",
-                    "Vitamin B3",
-                    "Organic Aloe Vera Extract",
-                    "Centella Asiatica Extract"
+                    "salicylic acid encapsulation",
+                    "ceramide complex",
+                    "seboclear mp",
+                    "vitamin b3",
+                    "organic aloe vera extract",
+                    "centella asiatica extract"
                 ],
                 "p_pakaging": [
                     {
@@ -1470,14 +1477,14 @@ const factory = [
                 ],
                 "p_use": "ครีมทาผิวกาย",
                 "p_ingre": [
-                    "Pentavitin",
-                    "Ceramide Complex",
-                    "Vitamin C",
-                    "Vitamin B3",
-                    "Vitamin E",
-                    "Aloe Vera Extract",
-                    "Centella Asiatica Extract",
-                    "Hyaluronic Acid"
+                    "pentavitin",
+                    "ceramide complex",
+                    "vitamin c",
+                    "vitamin b3",
+                    "vitamin e",
+                    "aloe vera extract",
+                    "centella asiatica extract",
+                    "hyaluronic acid"
                 ],
                 "p_pakaging": [
                     {
@@ -1509,11 +1516,11 @@ const factory = [
                 ],
                 "p_use": "ครีมทาผิวกาย",
                 "p_ingre": [
-                    "Niacinamide",
-                    "Seagem Multi Collagen",
-                    "Witch Hazel Extract",
-                    "Superberry Complex 12",
-                    "Persimmon extract",
+                    "niacinamide",
+                    "seagem multi collagen",
+                    "witch hazel extract",
+                    "superberry complex 12",
+                    "persimmon extract",
                 ],
                 "p_pakaging": [
                     {
@@ -1545,7 +1552,8 @@ const factory = [
         "detail_full": " มีการบริการที่ครบวงจร โดยมีทีมผู้เชี่ยวชาญคอยให้คำปรึกษาทุกขั้นตอนอย่างเป็นกันเอง ตลอดจนเมื่อได้รับสินค้าแล้วยังมีการแนะนำพื้นฐานการทำการตลาดเบื้องต้น เพื่อให้ลูกค้าสามารถเติบโตในธุรกิจอาหารเสริมได้อย่างมั่นคงและยั่งยืน",
         "catagory_english": "food",
         "location": "Factory Yard ลำลูกกา 168/11 หมู่ที่ 1 ตำบลรังสิต อำเภอธัญบุรี จังหวัดปทุมธานี 12110",
-        "product": [
+        "province": "pathum thani",
+        "product_have": [
             "sleep", "collagen", "burn"
         ],
         "image": [
@@ -1575,10 +1583,10 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Gamma GABA",
-                    "Vitamin B6",
-                    "Reishi",
-                    "Berries"
+                    "gamma gaba",
+                    "vitamin b6",
+                    "reishi",
+                    "berries"
                 ]
                 ,
                 "p_pakaging": [
@@ -1647,9 +1655,9 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Black Pepper",
-                    "Capsicum Extract",
-                    "L-Arginine"
+                    "black pepper",
+                    "capsicum extract",
+                    "l-arginine"
                 ],
                 "p_pakaging": [
                     {
@@ -1682,7 +1690,8 @@ const factory = [
         "detail_full": "เราเป็นหนึ่งในผู้นำอุตสาหกรรมการผลิตอาหารเสริมและเครื่องสำอางยุคใหม่ สามารถควบคุมคุณภาพให้ได้มาตรฐานในทุกขั้นตอน เรามีความเชี่ยวชาญ และมีทีมงานผู้ควบคุมการผลิต และวิจัยผลิตภัณฑ์ ผลิตสินค้าตามมาตรฐาน ASEAN GMP, HACCP , HALAL โดยทีมนักวิทยาศาสตร์มืออาชีพที่มากด้วยประสบการณ์ รับผลิตอาหารเสริมและเครื่องสำอางทุกชนิดแบบ One-Stop Service พร้อมบริการขึ้นทะเบียนเครื่องสำอาง ควบคุมทุกผลิตภัณฑ์กับ อย. ภายใต้แบรนด์ของลูกค้า เรามีโรงงานผลิตสินค้าด้วยเทคโนโลยี และเครื่องจักรอันทันสมัย เพื่อผลิตเครื่องสำอางออกสู่ตลาดทั้งภายในและต่างประเทศ",
         "catagory_english": "food",
         "location": "45 ซอย โชคชัยจงจำเริญ แขวง บางโพงพาง เขต ยานนาวา กรุงเทพมหานคร 10120",
-        "product": [
+        "province": "bangkok",
+        "product_have": [
             "serum", "way protein"
         ],
         "image": [
@@ -1713,10 +1722,10 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Whey Protein Isolate",
-                    "Milk Protein Isolate",
-                    "Vitamin D3",
-                    "Calcium"
+                    "whey protein isolate",
+                    "milk protein isolate",
+                    "vitamin d3",
+                    "calcium"
                 ]
                 ,
                 "p_pakaging": [
@@ -1750,12 +1759,12 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Punica Granatum Extract",
-                    "Rose Water",
-                    "Red Snow",
-                    "Natural HG",
-                    "Allantoin",
-                    "Jeju Jori"
+                    "punica granatum extract",
+                    "rose water",
+                    "red snow",
+                    "natural hg",
+                    "allantoin",
+                    "jeju jori"
                 ],
                 "p_pakaging": [
                     {
@@ -1788,11 +1797,11 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Ancient Rice",
-                    "SK-Influx V",
-                    "COS-VCE",
-                    "Hokkaido Milk",
-                    "Vitamin B3"
+                    "ancient rice",
+                    "sk-influx v",
+                    "cos-vce",
+                    "hokkaido milk",
+                    "vitamin b3"
                 ],
                 "p_pakaging": [
                     {
@@ -1825,7 +1834,8 @@ const factory = [
         "detail_full": "เพื่อผลิตผลิตภัณฑ์คุณภาพดีและปลอดภัยที่สุดแก่ผู้บริโภค บริษัทฯ มุ่งมั่น ดำเนินกระบวนการตามมาตรฐานสากล ดูแลควบคุม ตรวจสอบและประเมิน ผลอย่างต่อเนื่อง ซึ่งได้รับการรับรองเป็นไปตามมาตรฐานสากล อาทิ หลัก เกณฑ์วิธีการที่ดีในการผลิตอาหาร หรือ GMP (Good Manufacturing Practice) ระบบการจัดการด้านความปลอดภัยในการควบคุมกระบวนการ ผลิตให้ได้อาหารที่ปราศจากอันตราย HACCP (Hazard Analysis and Critical Control Point) จาก British Standards , ISO, USFDA และ การรับรองการใช้เครื่องหมายการค้า ฮาลาล โดยสำนักงานคณะกรรมการ กลางอิสลาม เป็นโรงงานที่ได้มาตรฐาน การผลิตปราศจากสารปนเปื้อน หรือสารต้องห้ามที่เป็นอันตรายต่อการบริโภค",
         "catagory_english": "food",
         "location": "45 ซอย โชคชัยจงจำเริญ แขวง บางโพงพาง เขต ยานนาวา กรุงเทพมหานคร 10120",
-        "product": [
+        "province": "bangkok",
+        "product_have": [
             "sleep", "health"
         ],
         "image": [
@@ -1856,12 +1866,12 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "CBD",
-                    "L-THEANINE",
-                    "Lemon balm",
-                    "Banana Tryptophan",
-                    "Brow Rice GABA",
-                    "Pumpkin 5-HTP"
+                    "cbd",
+                    "l-theanine",
+                    "lemon balm",
+                    "banana tryptophan",
+                    "brow rice gaba",
+                    "pumpkin 5-htp"
                 ]
                 ,
                 "p_pakaging": [
@@ -1895,10 +1905,10 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "CBD",
-                    "Cordyceps Militaris",
+                    "cbd",
+                    "cordyceps militaris",
                     "หญ้าหวาน",
-                    "Lemon"
+                    "lemon"
                 ],
                 "p_pakaging": [
                     {
@@ -1964,7 +1974,8 @@ const factory = [
         "detail_full": "ก่อตั้งขึ้นเมื่อปี พ.ศ.2564 จากความตั้งใจของ 3 ผู้บริหาร ผู้ซึ่งมีจุดมุ่งหมายเดียวกัน โดยเริ่มต้นจากการดำเนินการธุรกิจ ผลิตเสริมอาหาร คิดค้นและวิจัยสูตรอาหารเสริมใหม่ๆ โดยทีมนักวิจัยและพัฒนาที่มีความเชี่ยวชาญ เพื่อตอบสนองความต้องการของลูกค้าทุกกลุ่ม ด้วยวิธีการผลิตที่ทันสมัย สะอาด ปลอดภัย ภายใต้กระบวนการผลิตที่ได้การรับรองมาตรฐาน GMP สํานักงานคณะกรรมการอาหารและยา (Food and Drug Administration) ISO2200 และ Halal นอกเหนือจากผลิตภัณฑ์ที่มีคุณภาพได้มาตรฐานแล้ว เรายังใส่ใจในการให้คำปรึกษาและให้บริการลูกค้าอย่างมืออาชีพ นอกจากนี้ยังมีการขยายธุรกิจสู่การเป็น โรงงานผลิตสินค้าสุขภาพและความงาม ที่ครบวงจร ครอบคลุมทุกประเภทสินค้า ได้แก่ กลุ่มผลิตภัณฑ์ทำความสะอาดผิว ผลิตภัณฑ์ดูแลผิวหน้า ผลิตภัณฑ์ดูแลผิวกาย เพื่อรองรับลูกค้าทุกระดับทั้งภายในประเทศและต่างประเทศ",
         "catagory_english": "food",
         "location": "หมู่ที่ 5 ตำบลลำลูกกา อำเภอลำลูกกา ปทุมธานี ประเทศไทย 12150",
-        "product": [
+        "province": "pathum thani",
+        "product_have": [
             "health"
         ],
         "image": [
@@ -1995,11 +2006,11 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "GINGER POWDER",
-                    "FINGER ROOT EXTRACT",
-                    "PLU KAOW POWDER",
-                    "FOLIC ACID",
-                    "NIACINAMIDE",
+                    "ginger powder",
+                    "finger root extract",
+                    "plu kaow powder",
+                    "folic acid",
+                    "niacinamide",
                 ]
                 ,
                 "p_pakaging": [
@@ -2033,11 +2044,11 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "ISOLATED SOY PROTEIN",
-                    "OAT EXTRACT",
-                    "WHEAT GRASS POWDER",
-                    "BARLEY POWDER",
-                    "NIACINAMIDE"
+                    "isolated soy protein",
+                    "oat extract",
+                    "wheat grass powder",
+                    "barley powder",
+                    "niacinamide"
                 ],
                 "p_pakaging": [
                     {
@@ -2104,7 +2115,8 @@ const factory = [
         "detail_full": "บริษัท บียอนด์ แล็บโบราโทรี่ (ประเทศไทย) เป็นโรงงานรับผลิตอาหารเสริมชั้นนำของประเทศไทย รับสร้างแบรนด์อาหารเสริม ในรูปแบบ Beyond Great Service System นวัตกรรมการสร้างแบรนด์อาหารเสริมที่ดีที่สุด ครอบคลุมทุกขั้นตอน การันตีรางวัลคุณภาพจากประเทศสิงคโปร์ โดยสามารถตอบสนองความต้องการของลูกค้า และวิเคราะห์ความต้องการของตลาดอาหารเสริม แบบ OEM ( Original – Equipment Manufacturer) เราเป็นโรงงานรับผลิตอาหารเสริม อาทิ ผลิตอาหารเสริมลดน้ำหนัก ผลิตคอลลาเจน ผลิตกลูต้า ผลิตดีท็อกซ์ ผลิตกาแฟลดน้ำหนัก ผลิตอาหารเสริมผู้หญิง ผลิตอาหารเสริมผู้ชาย ผลิตอาหารเสริมบำรุงร่างกาย และกลุ่มอื่น ๆ ควบคุมการผลิตด้วยมาตรฐานระดับสากล พร้อมเครื่องจักรที่ทันสมัยและมีประสิทธิภาพสูงสุด รองรับกำลังการผลิตที่เติบโตในอนาคต ด้วยที่ปรึกษาการสร้างแบรนด์อาหารเสริม และทีมงานผู้เชี่ยวชาญมืออาชีพ เพื่อตอบสนองความพึงพอใจของลูกค้าที่ตรงกับความต้องการอย่างแท้จริง",
         "catagory_english": "food",
         "location": "555/121 บีอเวนิว วัชรพล ถนน สุขาภิบาล 5 แขวงออเงิน เขตสายไหม กรุงเทพฯ 10220",
-        "product": [
+        "province": "bangkok",
+        "product_have": [
             "burn"
         ],
         "image": [
@@ -2135,14 +2147,14 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Cocoa Powder",
-                    "Green Tea Extract",
-                    "Citrus Bioflavonoid",
-                    "Garcinia Extract",
-                    "Green Coffee Bean Extract",
-                    "Cactus Extract",
-                    "White Kidney Bean Extract",
-                    "Carnitine"
+                    "cocoa powder",
+                    "green tea extract",
+                    "citrus bioflavonoid",
+                    "garcinia extract",
+                    "green coffee bean extract",
+                    "cactus extract",
+                    "white kidney bean extract",
+                    "carnitine"
                 ]
                 ,
                 "p_pakaging": [
@@ -2176,11 +2188,11 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Peach Powder",
-                    "Grape Extract ",
-                    "Pumpkin Powder",
-                    "Red Kidney Bean",
-                    "Dandelion Powder"
+                    "peach powder",
+                    "grape extract ",
+                    "pumpkin powder",
+                    "red kidney bean",
+                    "dandelion powder"
                 ],
                 "p_pakaging": [
                     {
@@ -2213,12 +2225,12 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "L-carnitine",
-                    "Chromium amino acid chelated",
-                    "Garcinia Extract",
-                    "Brown algae Extract",
-                    "Raspberry Extract",
-                    "Cactus Extract"
+                    "l-carnitine",
+                    "chromium amino acid chelated",
+                    "garcinia extract",
+                    "brown algae extract",
+                    "raspberry extract",
+                    "cactus extract"
                 ],
                 "p_pakaging": [
                     {
@@ -2251,7 +2263,8 @@ const factory = [
         "detail_full": "เน้นการลงทุนกับเทคโนโลยีด้านการวิจัย และพัฒนาในรูปแบบ ORM (Original Research Manufacturer) เพื่อสร้างสรรผลิตภัณฑ์ที่มีคุณภาพ โดดเด่นด้วยนวัตกรรม และเพื่อลดต้นทุนการผลิตทำให้ลูกค้าได้รับสินค้าที่มีคุณภาพสูงในราคาที่สามารถแข่งขันในตลาดได้",
         "catagory_english": "food",
         "location": "111/1 หมู่ 4 ซ.แจ้งวัฒนะ 19 ต.คลองเกลือ อ.ปากเกร็ด จ.นนทบุรี 11120",
-        "product": [
+        "province": "nonthaburi",
+        "product_have": [
             "burn", "health"
         ],
         "image": [
@@ -2282,14 +2295,14 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Premium Quinoa extract",
-                    "Fructo oligosaccharides (Prebiotic)",
-                    "Xylo-oligosaccharides (Prebiotic)",
-                    "Inulin",
-                    "Garcinia extract",
-                    "L-phenylalanine",
-                    "L-Carnitine fumarate",
-                    "Rice protein powder"
+                    "premium quinoa extract",
+                    "fructo oligosaccharides (prebiotic)",
+                    "xylo-oligosaccharides (prebiotic)",
+                    "inulin",
+                    "garcinia extract",
+                    "l-phenylalanine",
+                    "l-carnitine fumarate",
+                    "rice protein powder"
                 ]
                 ,
                 "p_pakaging": [
@@ -2323,11 +2336,11 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Innoslim",
-                    "Red orange complex",
-                    "Green Heaven dandelion extractr",
-                    "Inulin",
-                    "Xylo-oligosaccharides (Prebiotic)"
+                    "innoslim",
+                    "red orange complex",
+                    "green heaven dandelion extractr",
+                    "inulin",
+                    "xylo-oligosaccharides (prebiotic)"
                 ],
                 "p_pakaging": [
                     {
@@ -2360,12 +2373,12 @@ const factory = [
                 ],
                 "p_use": "อาหารเสริม",
                 "p_ingre": [
-                    "Enzymatic ginsenoside",
-                    "Yeast Beta Glucan",
-                    "Encapsulated Elderberry Extract",
-                    "Maitake mushroom extract",
-                    "Pumpkin powder",
-                    "Emblica Extract"
+                    "enzymatic ginsenoside",
+                    "yeast beta glucan",
+                    "encapsulated elderberry extract",
+                    "maitake mushroom extract",
+                    "pumpkin powder",
+                    "emblica extract"
                 ],
                 "p_pakaging": [
                     {

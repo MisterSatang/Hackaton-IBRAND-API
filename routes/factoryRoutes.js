@@ -1,10 +1,118 @@
 const express = require('express');
-const data = require('../data/factoryData');
 
 const router = express.Router();
+const Factory = require('../model/FactoryModel');
 
-router.get('/', (req, res) => {
-    res.json(data);
+
+router.get('/', async (req, res) => {
+    const result = await Factory.find({});
+    res.send(result);
+});
+
+router.post("/", async (req, res) => {
+    try {
+        const { fac_id, title, founded, detail, detail_full, location, province, catagory_english, product_have, image, catagory_thai, rate_price, rate_price_FDA, Certificate, p_id, p_image, p_catagory, p_title, p_detail, p_point, p_use, p_ingre, pak_id, pak_image } = req.body;
+        const factory = await Factory.create({
+            fac_id,
+            title,
+            founded,
+            detail,
+            detail_full,
+            location,
+            province,
+            catagory_english,
+            product_have,
+            image,
+            catagory_thai,
+            rate_price,
+            rate_price_FDA,
+            Certificate,
+            product: [
+                {
+                    p_id,
+                    p_image,
+                    p_catagory,
+                    p_title,
+                    p_detail,
+                    p_point,
+                    p_use,
+                    p_ingre,
+                    p_pakaging: [
+                        {
+                            pak_id,
+                            pak_image
+                        }
+                    ]
+                }
+            ],
+        })
+
+        res.status(201).json(factory);
+    } catch (err) {
+        console.log(err);
+    }
+});
+
+
+router.get('/search/:id', async (req, res) => {
+    const productId = Number.parseInt(req.params.id);
+    const result = await Factory.find({});
+    const product = result.find((product) => product.fac_id == productId);
+    res.json(product);
+});
+
+router.get('/filter', async (req, res) => {
+    const data = await Factory.find({});
+    let find = {};
+    const filters = req.query;
+    !filters.province ? find = data : (find = data.filter((v) => v.province == filters.province));
+    console.log(find.length);
+
+    !filters.catagory_english ? null : (find = find.filter((v) => v.catagory_english == filters.catagory_english));
+    console.log(find.length);
+
+    !filters.product_have ? null : (find = find.filter((v) => v.product_have.includes(filters.product_have)));
+    console.log(find.length);
+
+    !filters.p_ingre ? null : (find = find.map(a => a.product.map((item) => {
+        if (item.p_ingre.includes(filters.p_ingre)) return a;
+    }).filter(v => v != null)).filter(x => x.length != 0));
+
+    let x = [];
+    if (!filters.p_ingre) {
+        res.json(find);
+    } else {
+        for (let i = 0; i < find.length; i++) {
+            let y = [...new Set(find[i])];
+            x.push(y);
+        }
+        const result = x.flat();
+        res.json(result);
+    }
+});
+
+
+router.get('/ingre', async (req, res) => {
+    const data = await Factory.find({});
+    const ingre = data.map(a => a.product.map(b => b.p_ingre));
+    console.log(ingre);
+    let x = [];
+    ingre.forEach((data) => {
+        data.forEach((data2) => {
+            data2.forEach((data3) => {
+                x.push(data3.toLocaleLowerCase());
+            });
+        });
+    });
+    const y = [...new Set(x)];
+    res.json(y);
+});
+
+router.get('/watchlist/', async (req, res) => {
+    const filters = req.query;
+    const result = await Factory.find({});
+    const find = result.filter((v) => filters.search.includes(v.fac_id))
+    res.json(find);
 });
 
 module.exports = router;
