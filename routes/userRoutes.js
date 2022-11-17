@@ -2,9 +2,11 @@ const express = require('express');
 
 const router = express.Router();
 const Users = require('../model/UserModel');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const auth = require('../middleware/auth');
 
-
-router.get('/', async (req, res) => {
+router.get('/', auth, async (req, res) => {
     const result = await Users.find({});
     res.send(result);
 });
@@ -12,7 +14,7 @@ router.get('/', async (req, res) => {
 router.get('/:id', async (req, res) => {
     const userID = Number.parseInt(req.params.id);
     const result = await Users.find({ user_id: userID });
-    res.send(result);
+    res.send(result[0]);
 });
 
 router.put('/watchlist/:id', async (req, res) => {
@@ -42,18 +44,36 @@ router.put('/watchlist/delete/:id', async (req, res) => {
 
 
 
-router.post("/", async (req, res) => {
+router.post("/register", async (req, res) => {
     try {
         const { user_id, rank, first_name, last_name, email, password } = req.body;
+        if (!(user_id, rank, first_name, last_name, email, password)) {
+            res.status(400).send('All input has required');
+        }
+
+        encryptedPassword = await bcrypt.hash(password, 10);
+
         const user = await Users.create({
             user_id,
             rank,
             first_name,
             last_name,
-            email,
-            password,
+            email: email.toLowerCase(),
+            password: encryptedPassword,
             watchlist: [],
         })
+
+
+        const token = jwt.sign(
+            { user_id: user._id, email },
+            process.env.TOKEN_KEY,
+            {
+                expiresIn: "2h"
+            }
+        );
+
+        user.token = token
+
         res.status(201).json(user);
     } catch (err) {
         console.log(err);

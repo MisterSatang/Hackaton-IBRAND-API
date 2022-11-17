@@ -5,10 +5,11 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 
-
+const auth = require('./middleware/auth');
 const factoryModel = require('./routes/factoryRoutes');
 const userModel = require('./routes/userRoutes');
 const transactionModel = require('./routes/transactionRoutes');
+const loginModel = require('./routes/loginRoutes');
 const app = express();
 
 app.use(express.json());
@@ -19,7 +20,13 @@ app.use(morgan('tiny'));
 
 app.use('/factory', factoryModel);
 app.use('/user', userModel);
-app.use('/transaction', transactionModel);
+app.use('/transaction', auth, transactionModel);
+app.use('/login', loginModel);
+app.use('/welcome', auth, (req, res) => {
+    const x = req.user.email;
+    console.log(x);
+    res.status(200).send('Welcome');
+});
 
 app.listen(8000, () => {
     console.log('Listening on port 8000');
