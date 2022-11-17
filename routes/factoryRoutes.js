@@ -9,6 +9,28 @@ router.get('/', async (req, res) => {
     res.send(result);
 });
 
+
+router.get('/province', async (req, res) => {
+    const result = await Factory.find({});
+    const data = result.map(a => a.province);
+    const province = [...new Set(data)];
+    res.send(province);
+});
+
+router.get('/product', async (req, res) => {
+    const result = await Factory.find({});
+    const data = result.map(a => a.product_have);
+    const product = [...new Set(data.flat())];
+    res.send(product);
+});
+
+router.get('/catagory', async (req, res) => {
+    const result = await Factory.find({});
+    const data = result.map(a => a.catagory_english);
+    const catagory_english = [...new Set(data)];
+    res.send(catagory_english);
+});
+
 router.post("/", async (req, res) => {
     try {
         const { fac_id, title, founded, detail, detail_full, location, province, catagory_english, product_have, image, catagory_thai, rate_price, rate_price_FDA, Certificate, p_id, p_image, p_catagory, p_title, p_detail, p_point, p_use, p_ingre, pak_id, pak_image } = req.body;
@@ -46,7 +68,6 @@ router.post("/", async (req, res) => {
                 }
             ],
         })
-
         res.status(201).json(factory);
     } catch (err) {
         console.log(err);
@@ -68,10 +89,10 @@ router.get('/filter', async (req, res) => {
     !filters.province ? find = data : (find = data.filter((v) => v.province == filters.province));
     console.log(find.length);
 
-    !filters.catagory_english ? null : (find = find.filter((v) => v.catagory_english == filters.catagory_english));
+    !filters.catagory_english ? find = find : (find = find.filter((v) => v.catagory_english == filters.catagory_english));
     console.log(find.length);
 
-    !filters.product_have ? null : (find = find.filter((v) => v.product_have.includes(filters.product_have)));
+    !filters.product_have ? find = find : (find = find.filter((v) => v.product_have.includes(filters.product_have)));
     console.log(find.length);
 
     !filters.p_ingre ? null : (find = find.map(a => a.product.map((item) => {
@@ -109,9 +130,9 @@ router.get('/ingre', async (req, res) => {
 });
 
 router.get('/watchlist/', async (req, res) => {
-    const filters = req.query;
+    const filters = req.query.search.split(',');
     const result = await Factory.find({});
-    const find = result.filter((v) => filters.search.includes(v.fac_id))
+    const find = result.filter((v) => filters.includes(v.fac_id))
     res.json(find);
 });
 

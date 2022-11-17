@@ -15,7 +15,6 @@ router.get('/:id', async (req, res) => {
     res.send(result);
 });
 
-
 router.put('/watchlist/:id', async (req, res) => {
     const { fac_id } = req.body;
     const userID = Number.parseInt(req.params.id);
