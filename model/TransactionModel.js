@@ -3,7 +3,10 @@ const mongoose = require('mongoose');
 const TransactionSchema = new mongoose.Schema({
     transaction_id: { type: Number, require: [true, 'A transaction must id'], unique: true },
     fac_id: { type: Number, default: 0 },
-    user_id: { type: Number, default: 0 },
+    user: {
+        user_id: { type: Number, default: 0 },
+        user_name: { type: String, default: "" },
+    },
     step: { type: Number, require: [true, 'A transaction must id'], default: 0 },
     product: [],
     qualityComment_customer: { type: String, default: "" },
