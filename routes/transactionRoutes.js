@@ -3,9 +3,15 @@ const express = require('express');
 
 const router = express.Router();
 const Transaction = require('../model/TransactionModel');
+const auth = require('../middleware/auth');
 
 router.get('/', async (req, res) => {
     const result = await Transaction.find({});
+    res.send(result);
+});
+
+router.get('/byuser/', auth, async (req, res) => {
+    const result = await Transaction.find({ user_id: req.user.user_id });
     res.send(result);
 });
 
