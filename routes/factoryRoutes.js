@@ -9,7 +9,6 @@ router.get('/', async (req, res) => {
     res.send(result);
 });
 
-
 router.get('/province', async (req, res) => {
     const result = await Factory.find({});
     const data = result.map(a => a.province);
@@ -87,13 +86,11 @@ router.get('/filter', async (req, res) => {
     let find = {};
     const filters = req.query;
     !filters.province ? find = data : (find = data.filter((v) => v.province == filters.province));
-    console.log(find.length);
 
     !filters.catagory_english ? find = find : (find = find.filter((v) => v.catagory_english == filters.catagory_english));
-    console.log(find.length);
 
     !filters.product_have ? find = find : (find = find.filter((v) => v.product_have.includes(filters.product_have)));
-    console.log(find.length);
+
 
     !filters.p_ingre ? null : (find = find.map(a => a.product.map((item) => {
         if (item.p_ingre.includes(filters.p_ingre)) return a;
@@ -116,7 +113,6 @@ router.get('/filter', async (req, res) => {
 router.get('/ingre', async (req, res) => {
     const data = await Factory.find({});
     const ingre = data.map(a => a.product.map(b => b.p_ingre));
-    console.log(ingre);
     let x = [];
     ingre.forEach((data) => {
         data.forEach((data2) => {

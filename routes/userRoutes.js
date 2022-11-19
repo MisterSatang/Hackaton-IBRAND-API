@@ -6,8 +6,18 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const auth = require('../middleware/auth');
 
-router.get('/', auth, async (req, res) => {
+router.get('/', async (req, res) => {
     const result = await Users.find({});
+    res.send(result);
+});
+
+router.get('/getuser', auth, async (req, res) => {
+    const result = await Users.findById({ _id: req.user.user_id });
+    res.send(result);
+});
+
+router.get('/', auth, async (req, res) => {
+    const result = await Users.findById({});
     res.send(result);
 });
 
@@ -20,12 +30,13 @@ router.get('/:id', async (req, res) => {
 router.put('/watchlist/:id', async (req, res) => {
     const { fac_id } = req.body;
     const userID = Number.parseInt(req.params.id);
+    console.log(userID);
     const DataUser = await Users.find({ user_id: userID });
     DataUser[0].watchlist.push(fac_id);
     const Block = [...new Set(DataUser[0].watchlist)];
     DataUser[0].watchlist = Block;
     console.log(DataUser[0].watchlist);
-    const updateDatabase = await Users.updateOne(DataUser[0]);
+    const updateDatabase = await Users.updateOne({ user_id: userID }, { $set: { watchlist: DataUser[0].watchlist } });
     res.sendStatus(200);
 });
 
@@ -38,15 +49,13 @@ router.put('/watchlist/delete/:id', async (req, res) => {
         const find = DataUser[0].watchlist.indexOf(fac_id);
         DataUser[0].watchlist.splice(find, 1)
     }
-    const updateDatabase = await Users.updateOne(DataUser[0]);
+    const updateDatabase = await Users.updateOne({ user_id: userID }, { $set: { watchlist: DataUser[0].watchlist } });
     res.sendStatus(200, updateDatabase);
 });
 
-
-
 router.post("/register", async (req, res) => {
     try {
-        const { user_id, rank, first_name, last_name, email, password } = req.body;
+        const { user_id, rank, first_name, last_name, email, password, fac_id } = req.body;
         if (!(user_id, rank, first_name, last_name, email, password)) {
             res.status(400).send('All input has required');
         }
@@ -55,6 +64,7 @@ router.post("/register", async (req, res) => {
 
         const user = await Users.create({
             user_id,
+            fac_id,
             rank,
             first_name,
             last_name,

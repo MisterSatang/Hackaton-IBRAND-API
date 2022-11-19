@@ -20,7 +20,7 @@ app.use(morgan('tiny'));
 
 app.use('/factory', factoryModel);
 app.use('/user', userModel);
-app.use('/transaction', auth, transactionModel);
+app.use('/transaction', transactionModel);
 app.use('/login', loginModel);
 app.use('/welcome', auth, (req, res) => {
     const x = req.user.email;
