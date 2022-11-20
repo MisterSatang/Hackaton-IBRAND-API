@@ -65,6 +65,24 @@ router.get('/byfac/onoffer/:fac_id', async (req, res) => {
     res.send(onproduct);
 });
 
+router.get('/byfac/onpakaging/:fac_id', async (req, res) => {
+    const facId = Number.parseInt(req.params.fac_id);
+    const result = await Transaction.find({});
+    const transaction = result.filter((fac) => fac.fac_id == facId);
+    const onproduct = transaction.filter((fac) => fac.step == 5);
+    console.log(onproduct);
+    res.send(onproduct);
+});
+
+router.get('/byfac/onFDA/:fac_id', async (req, res) => {
+    const facId = Number.parseInt(req.params.fac_id);
+    const result = await Transaction.find({});
+    const transaction = result.filter((fac) => fac.fac_id == facId);
+    const onproduct = transaction.filter((fac) => fac.step == 6);
+    console.log(onproduct);
+    res.send(onproduct);
+});
+
 
 router.post("/", async (req, res) => {
     try {

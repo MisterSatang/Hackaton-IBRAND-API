@@ -10,7 +10,7 @@ const TransactionSchema = new mongoose.Schema({
     qualityComment_factory: { type: String, default: "" },
     offer_price: { type: Number, default: 0 },
     testing_price: { type: Number, default: 0 },
-    pakaging_choose: { type: Number },
+    pakaging_choose: { type: Number, default: 0 },
     file_pakaging: { type: String, default: "" },
     location_customer: { type: String, default: "" },
     fac_title: { type: String, default: "" },
