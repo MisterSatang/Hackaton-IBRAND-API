@@ -13,6 +13,13 @@ const TransactionSchema = new mongoose.Schema({
     pakaging_choose: { type: Number },
     file_pakaging: { type: String, default: "" },
     location_customer: { type: String, default: "" },
+    fac_title: { type: String, default: "" },
+    status: { type: String, default: "" },
+    status_user: { type: String, default: "" },
+    date: { type: Date, default: new Date() },
+    count: { type: Number, default: 0 },
+    total_price: { type: Number, default: 0 },
+    total_offer: { type: Number, default: 0 },
 });
 
 module.exports = mongoose.model('transaction', TransactionSchema);
