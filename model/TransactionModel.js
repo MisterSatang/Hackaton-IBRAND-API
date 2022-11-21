@@ -20,6 +20,7 @@ const TransactionSchema = new mongoose.Schema({
     count: { type: Number, default: 0 },
     total_price: { type: Number, default: 0 },
     total_offer: { type: Number, default: 0 },
+    deliver_code: { type: String, default: "" },
 });
 
 module.exports = mongoose.model('transaction', TransactionSchema);

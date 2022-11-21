@@ -83,10 +83,37 @@ router.get('/byfac/onFDA/:fac_id', async (req, res) => {
     res.send(onproduct);
 });
 
+router.get('/byfac/onproduce/:fac_id', async (req, res) => {
+    const facId = Number.parseInt(req.params.fac_id);
+    const result = await Transaction.find({});
+    const transaction = result.filter((fac) => fac.fac_id == facId);
+    const onproduct = transaction.filter((fac) => fac.step == 7);
+    console.log(onproduct);
+    res.send(onproduct);
+});
+
+router.get('/byfac/onpay/:fac_id', async (req, res) => {
+    const facId = Number.parseInt(req.params.fac_id);
+    const result = await Transaction.find({});
+    const transaction = result.filter((fac) => fac.fac_id == facId);
+    const onproduct = transaction.filter((fac) => fac.step == 8);
+    console.log(onproduct);
+    res.send(onproduct);
+});
+
+router.get('/byfac/ondeliver/:fac_id', async (req, res) => {
+    const facId = Number.parseInt(req.params.fac_id);
+    const result = await Transaction.find({});
+    const transaction = result.filter((fac) => fac.fac_id == facId);
+    const onproduct = transaction.filter((fac) => fac.step == 9);
+    console.log(onproduct);
+    res.send(onproduct);
+});
+
 
 router.post("/", async (req, res) => {
     try {
-        const { fac_id, user_id, user_name, step, product, qualityComment_customer, qualityComment_factory, offer_price, testing_price, deliver_price, pakaging_choose, file_pakaging, location_customer, fac_title, status, status_user, count, total_price, total_offer } = req.body;
+        const { fac_id, user_id, user_name, step, product, qualityComment_customer, qualityComment_factory, offer_price, testing_price, deliver_price, pakaging_choose, file_pakaging, location_customer, fac_title, status, status_user, count, total_price, total_offer, deliver_code } = req.body;
         const transaction = await Transaction.create({
             fac_id,
             fac_title,
@@ -107,6 +134,7 @@ router.post("/", async (req, res) => {
             count,
             total_price,
             total_offer,
+            deliver_code,
         })
         res.status(201).json(transaction);
     } catch (err) {
