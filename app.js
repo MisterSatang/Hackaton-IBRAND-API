@@ -28,6 +28,6 @@ app.use('/welcome', auth, (req, res) => {
     res.status(200).send('Welcome');
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
     console.log('Listening on port 8000');
 });
